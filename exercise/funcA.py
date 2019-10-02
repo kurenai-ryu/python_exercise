@@ -3,7 +3,7 @@
 
 
 def funcA(a ,b, c):
-   return 7 # completar
+   return 6 # completar
 
 
 

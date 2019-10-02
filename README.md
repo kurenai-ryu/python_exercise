@@ -10,7 +10,7 @@ cada uno se tendrá que encargar de una función cada uno:
 
 ### funcA(a, b ,c)
 
-la primera función tendrá 3 argumentos, denominados `a`, `b`  y `c`, el resultado deberá ser el el entero del promedio de los 3 números por ejemplo `funcA(4,5,6)` debe retornar `7`, cuidado con retornar 8 o 7.5
+la primera función tendrá 3 argumentos, denominados `a`, `b`  y `c`, el resultado deberá ser el el entero del promedio de los 3 números por ejemplo `funcA(4,10,6)` debe retornar `6`, cuidado con retornar 7 o 6.66
 
 ### funcB(lista)
 
