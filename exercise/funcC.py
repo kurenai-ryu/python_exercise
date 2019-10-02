@@ -24,4 +24,4 @@ def funcC(nombres):
 
 if __name__ == '__main__':
     nombres = {'Diego': 98, 'Gustavo': 49, 'Limber': 100, 'Angela':99}
-    aprobados = funcC(nombres)
+    print(funcC(nombres))
