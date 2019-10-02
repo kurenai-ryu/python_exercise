@@ -17,12 +17,12 @@ class ExcerciseTest(unittest.TestCase):
         pass
 
     def test_funcA(self):
-        res = exercise.funcA(4, 5, 6)
-        self.assertEqual(res, 7, "el entero promedio de 4,5,6 es 7")
+        res = exercise.funcA(4, 10, 6)
+        self.assertEqual(res, 6, "el entero promedio de 4,5,6 es 6")
 
     def test_funcA2(self):
         res = exercise.funcA(8, 8, 8)
-        self.assertEqual(res, 12, "el entero promedio de 8,8,8 es 12")
+        self.assertEqual(res, 8, "el entero promedio de 8,8,8 es 8")
 
 
     def test_funcB(self):
