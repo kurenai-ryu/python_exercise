@@ -3,9 +3,10 @@
 
 
 def funcA(a ,b, c):
-   return 6 # completar
+   promedio = int((a+b+c)/3)
+   return promedio
 
 
 
 if __name__ == '__main__':
-    print("hello")
+    print(promedio)
