@@ -3,8 +3,7 @@
 
 
 def funcD(cadena):
-   return "odnum aloH"
-
+   return cadena[::-1]
 
 if __name__ == '__main__':
-    print("hello")
+    print(cadena)
