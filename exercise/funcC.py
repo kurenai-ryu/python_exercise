@@ -2,6 +2,16 @@
 # -*- coding: utf-8 -*-
 
 def funcC(nombres):
+    """
+    Retorna una lista de los aprobados por Gauss ordenada de menor a mayor
+
+    :param nombres: diccionario con nombres y calificaciones {'Juan': 100}
+    :return: list. los nombres de los aprobados de menor a mayor calificación
+
+    >>>funcC({'pedro':45, 'alberto':30, 'lucia': 55})
+    ['pedro', 'lucia']
+    """
+
     notas = list(nombres.values())
     promedio = sum(notas)/(len(notas))
     ordenado = [[nombres[i],i] for i in nombres if nombres[i]>=promedio]
@@ -11,5 +21,5 @@ def funcC(nombres):
     return aprobados
 
 if __name__ == '__main__':
-    nombres = {'Diego': 98, 'Gustavo': 49, 'Limber': 100, 'Angela':99}
+    nombres = {'pedro':45, 'alberto':30, 'lucia': 55}
     print(funcC(nombres))
