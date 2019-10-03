@@ -45,7 +45,7 @@ class ExcerciseTest(unittest.TestCase):
         res = exercise.funcD("Hola mundo")
         self.assertEqual(res, "odnum aloH", "debe invertir el mensaje")
 
-    def test_funcD(self):
+    def test_funcD2(self):
         res = exercise.funcD("Hola mundo  cruel")
         self.assertEqual(res, "leurc  odnum aloH", "debe invertir el ,mensaje completo")
 
