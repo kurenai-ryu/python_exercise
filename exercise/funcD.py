@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-
+""" funcion para invertir cadenas """
 def funcD(cadena):
    """Invertir cadenas o listas es posible utilizar el operador slice
    NombreDeCadena [inicio : fin : paso]
