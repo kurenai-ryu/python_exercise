@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# LISTA DE APROBADOS A PARTIR DE UN DICCIONARIO
+
+""" LISTA DE APROBADOS A PARTIR DE UN DICCIONARIO """
 
 def funcC(nombres):
     """
